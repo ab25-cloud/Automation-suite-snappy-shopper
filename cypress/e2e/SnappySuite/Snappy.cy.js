@@ -57,17 +57,19 @@ describe('Snappy Shopper Login Functionality', () => {
         cy.contains('Login with Google').click();
     });
 
-    /*it('TC - Signup', () => {
-        cy.contains('Create Account').click();
-        cy.get('.v-text-field__slot > [data-cy="ss-checkout-details-form-first-name-input"]').type('Test user');
-        cy.get('.v-text-field__slot > [data-cy="ss-checkout-details-form-last-name-input"]').type('test last');
-        cy.get('.v-text-field__slot > [data-cy="ss-checkout-details-form-email-input"]').type('test@gmail.com');
-        cy.get('.v-text-field__slot > [data-cy="ss-checkout-details-form-phone-input"]').type('01234567890');
-        cy.get('.v-text-field__slot > [data-cy="ss-register-form-password-input"]').type('');
-        cy.get(':nth-child(2) > .v-input > .v-input__control > .v-input__slot > .v-input--selection-controls__input > [data-cy="ss-checkout-details-form-marketing-preference-input"]').click()
-        cy.get('.v-input--selection-controls__input > [data-cy="ss-checkout-details-form-terms-input"]').click();
-        cy.get('[data-cy="ss-register-page-create-account-button"] > .v-btn__content').click();
-      });*/
+    // it.only('TC - Signup', () => {
+    //     cy.contains('Create Account').click();
+    //     cy.contains('label', 'First Name').parent().find('input').type('Test');
+    //     //cy.get('input').eq(2).type('test')
+    //    // cy.get('.v-text-field__slot > [data-cy="ss-checkout-details-form-first-name-input"]').type('Test user');
+    //     cy.get('.v-text-field__slot > [data-cy="ss-checkout-details-form-last-name-input"]').type('test last');
+    //     cy.get('.v-text-field__slot > [data-cy="ss-checkout-details-form-email-input"]').type('test@gmail.com');
+    //     cy.get('.v-text-field__slot > [data-cy="ss-checkout-details-form-phone-input"]').type('01234567890');
+    //     cy.get('.v-text-field__slot > [data-cy="ss-register-form-password-input"]').type('');
+    //     cy.get(':nth-child(2) > .v-input > .v-input__control > .v-input__slot > .v-input--selection-controls__input > [data-cy="ss-checkout-details-form-marketing-preference-input"]').click()
+    //     cy.get('.v-input--selection-controls__input > [data-cy="ss-checkout-details-form-terms-input"]').click();
+    //     cy.get('[data-cy="ss-register-page-create-account-button"] > .v-btn__content').click();
+    //   });
       
     
   });
